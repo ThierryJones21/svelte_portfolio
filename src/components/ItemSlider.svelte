@@ -18,7 +18,7 @@
 
     function getRandomPosition() {
         return {
-            x: Math.floor(Math.random() * 300) + 100, // Random x from 500 to 1000
+            x: Math.floor(Math.random() * 100) + 100, // Random x from 500 to 1000
             y: 0, // Random y from -200 to 200
             duration: 3000
         };
