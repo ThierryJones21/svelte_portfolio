@@ -66,7 +66,50 @@ const technologies = [
   "Power Automate",
   "Passion:)"
 ];
+const movies = [
+  {
+    title: "Prisonners",
+    url: "/images/movies/prisonners.jpg",
+    href: "https://letterboxd.com/film/prisoners/"
+  },
+  {
+    title: "The Iron Claw",
+    url: "/images/movies/iron-claw.jpg",
+    href: "https://letterboxd.com/film/the-iron-claw-2023/"
+  },
+  {
+    title: "Dune",
+    url: "/images/movies/dune.jpg",
+    href: "https://letterboxd.com/film/dune-2021/"
+  },
+  {
+    title: "Talk to Me",
+    url: "/images/movies/talk-to-me.jpg",
+    href: "https://letterboxd.com/film/talk-to-me-2022/"
+  },
+  {
+    title: "We Own the Night",
+    url: "/images/movies/we-own-the-night.jpg",
+    href: "https://letterboxd.com/film/we-own-the-night/"
+  },
+  {
+    title: "Apocalypto",
+    url: "/images/movies/apocalypto.jpg",
+    href: "	https://letterboxd.com/film/apocalypto/"
+  },
+  {
+    title: "Memento",
+    url: "/images/movies/memento.jpg",
+    href: "https://letterboxd.com/film/memento/"
+  },
+  {
+    title: "Heat",
+    url: "/images/movies/heat.jpg",
+    href: "	https://letterboxd.com/film/heat-1995/"
+  }
+];
 export {
+  movies as a,
   experience as e,
   metadata as m,
   navLinks as n,

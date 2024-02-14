@@ -1,5 +1,5 @@
 import { g as getContext, c as create_ssr_component, d as subscribe, e as escape, a as add_attribute } from "./index-f3ac1acc.js";
-import { m as metadata } from "./config-e3f12f67.js";
+import { m as metadata } from "./config-a1c3d60c.js";
 const getStores = () => {
   const stores = getContext("__svelte__");
   return {
@@ -38,7 +38,7 @@ const Head = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.type === void 0 && $$bindings.type && type !== void 0)
     $$bindings.type(type);
   $$unsubscribe_page();
-  return `${$$result.head += `${$$result.title = `<title>${escape(title)}</title>`, ""}<meta name="${"robots"}" content="${"follow, index"}" data-svelte="svelte-hcm5zr"><meta name="${"description"}"${add_attribute("content", description, 0)} data-svelte="svelte-hcm5zr"><meta property="${"og:url"}"${add_attribute("content", `${metadata.baseUrl}${$page.url.pathname}`, 0)} data-svelte="svelte-hcm5zr"><link rel="${"canonical"}"${add_attribute("href", `${metadata.baseUrl}${$page.url.pathname}`, 0)} data-svelte="svelte-hcm5zr"><meta property="${"og:type"}"${add_attribute("content", type, 0)} data-svelte="svelte-hcm5zr"><meta property="${"og:site_name"}" content="${"Thierry Jones"}" data-svelte="svelte-hcm5zr"><meta property="${"og:description"}"${add_attribute("content", description, 0)} data-svelte="svelte-hcm5zr"><meta property="${"og:title"}"${add_attribute("content", title, 0)} data-svelte="svelte-hcm5zr">`, ""}`;
+  return `${$$result.head += `${$$result.title = `<title>${escape(title)}</title>`, ""}<meta name="${"robots"}" content="${"follow, index"}" data-svelte="svelte-2e6t6q"><meta name="${"description"}"${add_attribute("content", description, 0)} data-svelte="svelte-2e6t6q"><meta property="${"og:url"}"${add_attribute("content", `${metadata.baseUrl}${$page.url.pathname}`, 0)} data-svelte="svelte-2e6t6q"><link rel="${"canonical"}"${add_attribute("href", `${metadata.baseUrl}${$page.url.pathname}`, 0)} data-svelte="svelte-2e6t6q"><meta property="${"og:type"}"${add_attribute("content", type, 0)} data-svelte="svelte-2e6t6q"><meta property="${"og:site_name"}" content="${"Thierry Jones"}" data-svelte="svelte-2e6t6q"><meta property="${"og:description"}"${add_attribute("content", description, 0)} data-svelte="svelte-2e6t6q"><meta property="${"og:title"}"${add_attribute("content", title, 0)} data-svelte="svelte-2e6t6q"><meta property="${"og:image"}" content="${"https://thierryjones.ca/images/logo.svg"}" data-svelte="svelte-2e6t6q">`, ""}`;
 });
 export {
   Head as H

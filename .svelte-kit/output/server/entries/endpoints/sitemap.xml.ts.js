@@ -1,4 +1,4 @@
-import { m as metadata } from "../../immutable/chunks/config-e3f12f67.js";
+import { m as metadata } from "../../immutable/chunks/config-a1c3d60c.js";
 async function GET() {
   const pages = ["/", "/projects"];
   const body = sitemap(pages);

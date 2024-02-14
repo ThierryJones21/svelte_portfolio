@@ -15,15 +15,7 @@
     "src": "src/routes/sitemap.xml.ts",
     "isEntry": true,
     "imports": [
-      "_config-e3f12f67.js"
-    ]
-  },
-  "src/routes/rss.xml.ts": {
-    "file": "entries/endpoints/rss.xml.ts.js",
-    "src": "src/routes/rss.xml.ts",
-    "isEntry": true,
-    "imports": [
-      "_config-e3f12f67.js"
+      "_config-a1c3d60c.js"
     ]
   },
   "src/routes/api/yahoo-finance/yahoo-json.ts": {
@@ -37,7 +29,7 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_config-e3f12f67.js",
+      "_config-a1c3d60c.js",
       "_Icon-3dbad89c.js"
     ],
     "css": [
@@ -58,12 +50,12 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-3476b964.js",
+      "_Head-1b1b9f49.js",
       "_Icon-3dbad89c.js",
-      "_config-e3f12f67.js"
+      "_config-a1c3d60c.js"
     ],
     "css": [
-      "immutable/assets/index-4fbfeb00.css"
+      "immutable/assets/index-8f03cd43.css"
     ]
   },
   "src/routes/projects/index.svelte": {
@@ -72,9 +64,9 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-3476b964.js",
+      "_Head-1b1b9f49.js",
       "_Icon-3dbad89c.js",
-      "_config-e3f12f67.js"
+      "_config-a1c3d60c.js"
     ],
     "css": [
       "immutable/assets/index-e9032ee6.css"
@@ -83,8 +75,8 @@
   "_index-f3ac1acc.js": {
     "file": "immutable/chunks/index-f3ac1acc.js"
   },
-  "_config-e3f12f67.js": {
-    "file": "immutable/chunks/config-e3f12f67.js"
+  "_config-a1c3d60c.js": {
+    "file": "immutable/chunks/config-a1c3d60c.js"
   },
   "_Icon-3dbad89c.js": {
     "file": "immutable/chunks/Icon-3dbad89c.js",
@@ -95,11 +87,11 @@
       "immutable/assets/Icon-2ad09abc.css"
     ]
   },
-  "_Head-3476b964.js": {
-    "file": "immutable/chunks/Head-3476b964.js",
+  "_Head-1b1b9f49.js": {
+    "file": "immutable/chunks/Head-1b1b9f49.js",
     "imports": [
       "_index-f3ac1acc.js",
-      "_config-e3f12f67.js"
+      "_config-a1c3d60c.js"
     ]
   },
   ".svelte-kit/build/hooks.js": {
