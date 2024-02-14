@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "declaration": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "outDir": "./dist",
+
+    // There's an issue with the types on node-fetch@2 where its `AbortSignal` type now clash
+    // with `@types/node`.
+    //
+    // https://github.com/node-fetch/node-fetch/issues/1652
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*.ts"]
+}

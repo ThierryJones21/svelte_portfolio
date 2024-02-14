@@ -1,0 +1,110 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-f3ac1acc.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/sitemap.xml.ts": {
+    "file": "entries/endpoints/sitemap.xml.ts.js",
+    "src": "src/routes/sitemap.xml.ts",
+    "isEntry": true,
+    "imports": [
+      "_config-e3f12f67.js"
+    ]
+  },
+  "src/routes/rss.xml.ts": {
+    "file": "entries/endpoints/rss.xml.ts.js",
+    "src": "src/routes/rss.xml.ts",
+    "isEntry": true,
+    "imports": [
+      "_config-e3f12f67.js"
+    ]
+  },
+  "src/routes/api/yahoo-finance/yahoo-json.ts": {
+    "file": "entries/endpoints/api/yahoo-finance/yahoo-json.ts.js",
+    "src": "src/routes/api/yahoo-finance/yahoo-json.ts",
+    "isEntry": true
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f3ac1acc.js",
+      "_config-e3f12f67.js",
+      "_Icon-3dbad89c.js"
+    ],
+    "css": [
+      "immutable/assets/__layout-fbf845ab.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "entries/pages/__error.svelte.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f3ac1acc.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f3ac1acc.js",
+      "_Head-113edfcf.js",
+      "_Icon-3dbad89c.js",
+      "_config-e3f12f67.js"
+    ],
+    "css": [
+      "immutable/assets/index-0c1cef0a.css"
+    ]
+  },
+  "src/routes/projects/index.svelte": {
+    "file": "entries/pages/projects/index.svelte.js",
+    "src": "src/routes/projects/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f3ac1acc.js",
+      "_Head-113edfcf.js",
+      "_Icon-3dbad89c.js",
+      "_config-e3f12f67.js"
+    ],
+    "css": [
+      "immutable/assets/index-e9032ee6.css"
+    ]
+  },
+  "_index-f3ac1acc.js": {
+    "file": "immutable/chunks/index-f3ac1acc.js"
+  },
+  "_config-e3f12f67.js": {
+    "file": "immutable/chunks/config-e3f12f67.js"
+  },
+  "_Icon-3dbad89c.js": {
+    "file": "immutable/chunks/Icon-3dbad89c.js",
+    "imports": [
+      "_index-f3ac1acc.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-2ad09abc.css"
+    ]
+  },
+  "_Head-113edfcf.js": {
+    "file": "immutable/chunks/Head-113edfcf.js",
+    "imports": [
+      "_index-f3ac1acc.js",
+      "_config-e3f12f67.js"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "immutable/chunks/hooks-d259abab.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}

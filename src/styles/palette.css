@@ -1,0 +1,53 @@
+:root {
+	--color-bg-dark: #686868;
+	--color-bg-dark-accent: #1f2125;
+	--color-bg-light: #ffffff;
+	--color-bg-light-accent: #c0c1c5;
+	--color-text-dark-rgb: 255, 255, 255;
+	--color-text-dark: rgb(var(--color-text-dark-rgb));
+	--color-text-light-rgb: 60, 60, 60;
+	--color-text-light: rgb(var(--color-text-light-rgb));
+	--color-highlight: rgb(9, 66, 255);
+}
+
+body.light {
+	--color-primary-rgb: 152, 54, 209;
+	--color-primary-hex: #9836d1;
+	--color-primary: rgb(var(--color-primary-rgb));
+	--color-secondary: rgb(60, 60, 60);
+	--color-bg: var(--color-bg-light);
+	--color-bg-accent: var(--color-bg-light-accent);
+	--color-text-rgb: var(--color-text-light-rgb);
+	--color-text: var(--color-text-light);
+	color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+	/* if the user prefers color scheme dark, select the body that isn't .light */
+	body:not(.light) {
+		--color-primary-rgb: 123, 252, 194;
+		--color-primary-hex: #9130C2;
+		--color-primary: rgb(var(--color-primary-rgb));
+		--color-secondary-rgb: 248, 200, 64;
+		--color-secondary: rgb(var(--color-secondary-rgb));
+		--color-bg: var(--color-bg-dark);
+		--color-bg-accent: var(--color-bg-dark-accent);
+		--color-text-rgb: var(--color-text-dark-rgb);
+		--color-text: var(--color-text-dark);
+		color-scheme: dark;
+	}
+}
+
+/* same applies if the body simply has the class name .dark */
+body.dark {
+	--color-primary-rgb: 255, 153, 0;
+	--color-primary-hex: #ff9900;
+	--color-primary: rgb(var(--color-primary-rgb));
+	--color-secondary-rgb: 248, 200, 64;
+	--color-secondary: rgb(var(--color-secondary-rgb));
+	--color-bg: var(--color-bg-dark);
+	--color-bg-accent: var(--color-bg-dark-accent);
+	--color-text-rgb: var(--color-text-dark-rgb);
+	--color-text: var(--color-text-dark);
+	color-scheme: dark;
+}
