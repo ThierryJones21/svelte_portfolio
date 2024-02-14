@@ -58,12 +58,12 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-113edfcf.js",
+      "_Head-3476b964.js",
       "_Icon-3dbad89c.js",
       "_config-e3f12f67.js"
     ],
     "css": [
-      "immutable/assets/index-0c1cef0a.css"
+      "immutable/assets/index-4fbfeb00.css"
     ]
   },
   "src/routes/projects/index.svelte": {
@@ -72,7 +72,7 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-113edfcf.js",
+      "_Head-3476b964.js",
       "_Icon-3dbad89c.js",
       "_config-e3f12f67.js"
     ],
@@ -95,8 +95,8 @@
       "immutable/assets/Icon-2ad09abc.css"
     ]
   },
-  "_Head-113edfcf.js": {
-    "file": "immutable/chunks/Head-113edfcf.js",
+  "_Head-3476b964.js": {
+    "file": "immutable/chunks/Head-3476b964.js",
     "imports": [
       "_index-f3ac1acc.js",
       "_config-e3f12f67.js"

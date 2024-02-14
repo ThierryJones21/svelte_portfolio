@@ -4,7 +4,6 @@
 
 	export let title = metadata.title;
 	export let description = metadata.description;
-	export let image = "/images/logo.png";
 	export let type = "website";
 </script>
 
@@ -18,6 +17,6 @@
 	<meta property="og:site_name" content="Thierry Jones" />
 	<meta property="og:description" content={description} />
 	<meta property="og:title" content={title} />
-	<meta property="og:image" content={`${metadata.baseUrl}${image}`} />
+	<meta property="og:image" content="https://thierryjones.ca/images/logo.svg"/>
 	
 </svelte:head>

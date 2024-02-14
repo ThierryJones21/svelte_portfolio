@@ -1,5 +1,5 @@
 import { c as create_ssr_component, v as validate_component } from "../../../immutable/chunks/index-f3ac1acc.js";
-import { H as Head } from "../../../immutable/chunks/Head-113edfcf.js";
+import { H as Head } from "../../../immutable/chunks/Head-3476b964.js";
 import { I as Icon } from "../../../immutable/chunks/Icon-3dbad89c.js";
 import "../../../immutable/chunks/config-e3f12f67.js";
 const index_svelte_svelte_type_style_lang = "";
