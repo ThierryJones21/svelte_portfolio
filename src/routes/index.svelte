@@ -36,7 +36,7 @@
 		<br />
 		<br />
 
-		Here are some of my favourite <span class="movie-text-wrapper">movies:</span>
+		Here are some <span class="movie-text-wrapper"><a href="https://letterboxd.com/">letterboxd</a></span> image links to my favourite movies:
 
 		<br/>
 		<br/>
@@ -166,11 +166,9 @@
 		grid-area: about-content;
 	}
 
-	.about > a img {
-		padding: 5px;
+	.about a {
 		max-width: 100%;
-		border: 0.5px var(--color-primary) solid;
-		border-radius: 10%;
+		color:  var(--color-primary);
 	}
 
 	.about .movie-text-wrapper {
