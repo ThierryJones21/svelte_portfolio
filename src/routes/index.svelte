@@ -5,7 +5,8 @@
 <script>
 	import Head from "$components/Head.svelte";
   	import ItemSlider from "$components/ItemSlider.svelte";
-	import { technologies, experience } from "$lib/config";
+  import MoviesTransition from "$components/MoviesTransition.svelte";
+	import { technologies, experience, movies } from "$lib/config";
 
 	let selectedJobIndex = 0;
 	$: job = experience[selectedJobIndex];
@@ -25,10 +26,6 @@
 
 <h1 class="section-header">About Me</h1>
 <section class="about">
-	<a target="_blank" href="https://letterboxd.com/film/prisoners/">
-		<img src="/images/about_me_prisonners.jpg"  alt="letterboxd link and img"/>
-	</a>
-
 	
 	<p>
 		I am a dedicated and collaborative software developer, recently graduated from Queen’s University 🇷🇴.
@@ -39,11 +36,13 @@
 		<br />
 		<br />
 
-		Here is one of my favourite movies <span class="movie-text-wrapper">Prisonners</span>.
+		Here are some of my favourite <span class="movie-text-wrapper">movies:</span>
 
 		<br/>
 		<br/>
 	</p>
+	<MoviesTransition/>
+	
 </section>
 
 <section class="experience">
@@ -176,7 +175,6 @@
 
 	.about .movie-text-wrapper {
 		
-		font-size: 1.125rem;
 		color: var(--color-primary);
 	}
 
