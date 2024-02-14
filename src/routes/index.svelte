@@ -39,7 +39,7 @@
 		<br />
 		<br />
 
-		Here is one of my favourite movies <span class="movie-wrapper">Prisonners</span>.
+		Here is one of my favourite movies <span class="movie-text-wrapper">Prisonners</span>.
 
 		<br/>
 		<br/>
@@ -174,7 +174,7 @@
 		border-radius: 10%;
 	}
 
-	.about .movie-wrapper {
+	.about .movie-text-wrapper {
 		
 		font-size: 1.125rem;
 		color: var(--color-primary);
@@ -311,7 +311,7 @@
 			margin: 50px auto;
 		}
 
-		.about img {
+		.about a img {
 			display: block;
 			max-width: 50%;
 			margin: 50px auto;
