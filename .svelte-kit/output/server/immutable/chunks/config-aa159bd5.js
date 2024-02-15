@@ -7,6 +7,19 @@ const navLinks = [
   { href: "/", text: "Home" },
   { href: "/projects", text: "Projects" }
 ];
+const projects = [
+  {
+    title: "Checkmate: Reinventing Chess for Modern Players",
+    description: "Led a team in developing a cutting-edge chess application, integrating advanced features for an enhanced user experience. Employed C++ and Qt Creator Studio to craft the application, focusing on engineering design principles like SCAMPER, iterative process cycles, and agile methodologies. Personally spearheaded the UI design and devised the algorithm ensuring the accurate functioning of standard chess gameplay.",
+    date: "2020",
+    technologies: ["C++", "Qt Creator Studio"],
+    image: "images/projects/checkmate.png",
+    links: [
+      "https://example.com/checkmate",
+      "https://github.com/yourusername/checkmate"
+    ]
+  }
+];
 const experience = [
   {
     title: "End User Support Specialist",
@@ -113,5 +126,6 @@ export {
   experience as e,
   metadata as m,
   navLinks as n,
+  projects as p,
   technologies as t
 };

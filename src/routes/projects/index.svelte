@@ -1,8 +1,33 @@
+<script context="module">
+	export const prerender = true;
 
+	export const load = async ({ fetch }) => {
+		const projectsResponse = await fetch("/api/projects.json");
+		const projects = await projectsResponse.json();
+
+		return {
+			props: {
+				projects,
+			},
+		};
+	};
+</script>
 
 <script lang="ts">
 	import Head from "$components/Head.svelte";
 	import Icon from "$components/Icon.svelte";
+  	import ProjectViewer from "$components/ProjectViewer.svelte";
+	import type Project from "$types/Project";
+	
+	export let projects: Project[];
+	let searchQuery = "";
+	
+	$: filteredProjects =
+		searchQuery === ""
+			? projects
+			: projects.filter((project) =>
+					project.title.toLowerCase().includes(searchQuery.toLowerCase()),
+			  );
 	
 </script>
 
@@ -18,7 +43,15 @@
 </label>
 
 <ul>
-	
+	{#if filteredProjects.length}
+		{#each filteredProjects as project}
+			<li>
+				<ProjectViewer {project} />
+			</li>
+		{/each}
+	{:else}
+		<p>No projects here...</p>
+	{/if}
 </ul>
 
 <style>

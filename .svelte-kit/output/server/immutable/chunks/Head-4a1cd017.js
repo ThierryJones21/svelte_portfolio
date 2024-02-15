@@ -1,5 +1,5 @@
 import { g as getContext, c as create_ssr_component, d as subscribe, e as escape, a as add_attribute } from "./index-f3ac1acc.js";
-import { m as metadata } from "./config-a1c3d60c.js";
+import { m as metadata } from "./config-aa159bd5.js";
 const getStores = () => {
   const stores = getContext("__svelte__");
   return {

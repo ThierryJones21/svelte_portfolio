@@ -1,7 +1,7 @@
 import { c as create_ssr_component, o as onDestroy, b as each, a as add_attribute, e as escape, v as validate_component } from "../../immutable/chunks/index-f3ac1acc.js";
-import { H as Head } from "../../immutable/chunks/Head-1b1b9f49.js";
+import { H as Head } from "../../immutable/chunks/Head-4a1cd017.js";
 import { I as Icon } from "../../immutable/chunks/Icon-3dbad89c.js";
-import { a as movies, t as technologies, e as experience } from "../../immutable/chunks/config-a1c3d60c.js";
+import { a as movies, t as technologies, e as experience } from "../../immutable/chunks/config-aa159bd5.js";
 const ItemSlider_svelte_svelte_type_style_lang = "";
 const css$2 = {
   code: "li.svelte-1b5n5x9{display:inline-block;position:absolute;color:var(--color-primary)}ul.svelte-1b5n5x9{display:inline;list-style:none}span.svelte-1b5n5x9{display:inline-block;position:absolute;right:-30px}",

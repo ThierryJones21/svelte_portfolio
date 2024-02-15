@@ -15,18 +15,18 @@ export const navLinks: NavLink[] = [
 ];
 
 export const projects: Project[] = [
-	// {
-	// 	title: "Looking Glass: Protecting Canadians in a Return to Community.",
-	// 	description:
-	// 		"Helped develop a dashboard with analytics to help inform decision making around the health and economic impact of COVID-19 policies.",
-	// 	date: "Jan 2021 - April 2021",
-	// 	image: "images/projects/looking-glass.png",
-	// 	technologies: ["NextJS", "TypeScript", "Docker", "React"],
-	// 	links: [
-	// 		"https://looking-glass.app/",
-	// 		"https://www.digitalsupercluster.ca/covid-19-program-page/looking-glass-protecting-canadians-in-a-return-to-community/",
-	// 	],
-	// },
+	{
+		title: "Checkmate: Reinventing Chess for Modern Players",
+		description: "Led a team in developing a cutting-edge chess application, integrating advanced features for an enhanced user experience. Employed C++ and Qt Creator Studio to craft the application, focusing on engineering design principles like SCAMPER, iterative process cycles, and agile methodologies. Personally spearheaded the UI design and devised the algorithm ensuring the accurate functioning of standard chess gameplay.",
+		date: "2020",
+		technologies: ["C++", "Qt Creator Studio"],
+		image: "images/projects/checkmate.png",
+		links: [
+			"https://example.com/checkmate",
+			"https://github.com/yourusername/checkmate"
+		]
+	}
+	
 
 ];
 

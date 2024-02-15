@@ -1,5 +1,5 @@
 import { c as create_ssr_component, a as add_attribute, e as escape, n as null_to_empty, v as validate_component, b as each } from "../../immutable/chunks/index-f3ac1acc.js";
-import { n as navLinks } from "../../immutable/chunks/config-a1c3d60c.js";
+import { n as navLinks } from "../../immutable/chunks/config-aa159bd5.js";
 import { I as Icon } from "../../immutable/chunks/Icon-3dbad89c.js";
 const ToggleTheme_svelte_svelte_type_style_lang = "";
 const css$3 = {

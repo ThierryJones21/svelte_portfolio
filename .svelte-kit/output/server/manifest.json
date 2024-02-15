@@ -15,13 +15,16 @@
     "src": "src/routes/sitemap.xml.ts",
     "isEntry": true,
     "imports": [
-      "_config-a1c3d60c.js"
+      "_config-aa159bd5.js"
     ]
   },
-  "src/routes/api/yahoo-finance/yahoo-json.ts": {
-    "file": "entries/endpoints/api/yahoo-finance/yahoo-json.ts.js",
-    "src": "src/routes/api/yahoo-finance/yahoo-json.ts",
-    "isEntry": true
+  "src/routes/api/projects/index.json.ts": {
+    "file": "entries/endpoints/api/projects/index.json.ts.js",
+    "src": "src/routes/api/projects/index.json.ts",
+    "isEntry": true,
+    "imports": [
+      "_config-aa159bd5.js"
+    ]
   },
   "src/routes/__layout.svelte": {
     "file": "entries/pages/__layout.svelte.js",
@@ -29,7 +32,7 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_config-a1c3d60c.js",
+      "_config-aa159bd5.js",
       "_Icon-3dbad89c.js"
     ],
     "css": [
@@ -50,9 +53,9 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-1b1b9f49.js",
+      "_Head-4a1cd017.js",
       "_Icon-3dbad89c.js",
-      "_config-a1c3d60c.js"
+      "_config-aa159bd5.js"
     ],
     "css": [
       "immutable/assets/index-8f03cd43.css"
@@ -64,19 +67,19 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-1b1b9f49.js",
+      "_Head-4a1cd017.js",
       "_Icon-3dbad89c.js",
-      "_config-a1c3d60c.js"
+      "_config-aa159bd5.js"
     ],
     "css": [
-      "immutable/assets/index-e9032ee6.css"
+      "immutable/assets/index-927acb03.css"
     ]
   },
   "_index-f3ac1acc.js": {
     "file": "immutable/chunks/index-f3ac1acc.js"
   },
-  "_config-a1c3d60c.js": {
-    "file": "immutable/chunks/config-a1c3d60c.js"
+  "_config-aa159bd5.js": {
+    "file": "immutable/chunks/config-aa159bd5.js"
   },
   "_Icon-3dbad89c.js": {
     "file": "immutable/chunks/Icon-3dbad89c.js",
@@ -87,11 +90,11 @@
       "immutable/assets/Icon-2ad09abc.css"
     ]
   },
-  "_Head-1b1b9f49.js": {
-    "file": "immutable/chunks/Head-1b1b9f49.js",
+  "_Head-4a1cd017.js": {
+    "file": "immutable/chunks/Head-4a1cd017.js",
     "imports": [
       "_index-f3ac1acc.js",
-      "_config-a1c3d60c.js"
+      "_config-aa159bd5.js"
     ]
   },
   ".svelte-kit/build/hooks.js": {
