@@ -101,6 +101,7 @@
 		min-height: 300px;
 		max-height: 30vh;
 		margin: 0;
+		border-radius: 2%;
 	}
 
 	.wrapper .info {

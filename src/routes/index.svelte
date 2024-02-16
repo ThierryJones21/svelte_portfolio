@@ -32,7 +32,7 @@
 		
 		<br />
 		<br />
-		I enjoy swimming, weight lifting, coding, learning, reading, watching movies and spending time with family and friends.
+		I enjoy swimming, weightlifting, coding, learning, reading, watching movies and spending time with family and friends.
 		<br />
 		<br />
 

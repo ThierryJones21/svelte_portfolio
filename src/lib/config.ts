@@ -16,16 +16,21 @@ export const navLinks: NavLink[] = [
 
 export const projects: Project[] = [
 	{
-		title: "Checkmate: Reinventing Chess for Modern Players",
-		description: "Led a team in developing a cutting-edge chess application, integrating advanced features for an enhanced user experience. Employed C++ and Qt Creator Studio to craft the application, focusing on engineering design principles like SCAMPER, iterative process cycles, and agile methodologies. Personally spearheaded the UI design and devised the algorithm ensuring the accurate functioning of standard chess gameplay.",
-		date: "2020",
-		technologies: ["C++", "Qt Creator Studio"],
-		image: "images/projects/checkmate.png",
-		links: [
-			"https://example.com/checkmate",
-			"https://github.com/yourusername/checkmate"
-		]
-	}
+		title: 'Capstone Final Project',
+		description: `A cutting-edge Python/JS application integrating machine learning via TensorFlow and computer vision with OpenCV for joint tracking and form correction. This innovative solution harnesses Python's versatility alongside JavaScript's interactivity to revolutionize joint tracking algorithms. With a focus on enhancing user experience and efficiency, it marks a significant milestone in AI-driven applications. Access the detailed report for insights into the project's development and functionality.`,
+		date: '2023',
+		technologies: ['Python', 'Javascript', 'TensorFlow', 'OpenCV'],
+		image: '/images/projects/Capstone.jpg',
+		links: ['/images/projects/ELEC490_Final_Report_Group_52.pdf'],
+	  },
+	  {
+		title: 'Tetris React JS Game',
+		description: `Immerse yourself in this captivating JavaScript-based game, powered by React. Dive into the nostalgia of Tetris with modern technology, showcasing the seamless integration of JavaScript and React. Experience addictive gameplay and compete with friends for the top spot on the leaderboard. Try it now for a dose of retro fun and leaderboard glory!`,
+		date: '2023',
+		technologies: [ 'Javascript', 'React'],
+		image: '/images/projects/Tetris.jpg',
+		links: ['https://react-tetris-app.vercel.app/'],
+	  },
 	
 
 ];
