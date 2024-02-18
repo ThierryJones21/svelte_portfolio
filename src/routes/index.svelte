@@ -5,7 +5,7 @@
 <script>
 	import Head from "$components/Head.svelte";
   	import ItemSlider from "$components/ItemSlider.svelte";
-  import MoviesTransition from "$components/MoviesTransition.svelte";
+  	import MoviesTransition from "$components/MoviesTransition.svelte";
 	import { technologies, experience, movies } from "$lib/config";
 
 	let selectedJobIndex = 0;

@@ -31,6 +31,15 @@ export const projects: Project[] = [
 		image: '/images/projects/Tetris.jpg',
 		links: ['https://react-tetris-app.vercel.app/'],
 	  },
+	  {
+		title: 'StockPulse: Your Dynamic Financial Dashboard',
+		description: `StockPulse is your ultimate financial companion, offering dynamic and immersive stock data visualization. Seamlessly explore real-time and historical market trends with interactive candlestick charts. Choose from a curated list of top stock symbols or enter custom ones, tailoring your analysis to your needs. With intuitive controls and customizable options, StockPulse empowers you to track price movements, make informed decisions, and unlock investment opportunities with ease. Elevate your financial journey with StockPulse, your dynamic ally in the world of finance.`,
+		date: '2024',
+		technologies: [ 'Javascript', 'React', 'Vite', 'FMP API'],
+		image: '/images/projects/stock-project.png',
+		links: ['https://stock-tracker-iota.vercel.app/', 'https://site.financialmodelingprep.com/developer/docs'],
+	  },
+
 	
 
 ];

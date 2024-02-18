@@ -9,6 +9,8 @@
 			return "github";
 		} else if (link.toLowerCase().includes("you")) {
 			return "youtube";
+		} else if (link.toLowerCase().includes("vercel")) {
+			return "vercel";
 		} else {
 			return "globe";
 		}
@@ -52,9 +54,9 @@
 	.links {
 		list-style: none;
 		display: flex;
+		justify-content: left; 
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: 4px;
 	}
 
 	.links li:not(:first-of-type) {
