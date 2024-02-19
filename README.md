@@ -45,6 +45,7 @@ To run this project locally, follow these steps:
 Once the project is set up, you can run it locally by executing the following command:
    ```bash
    npm run dev
+```
 
 This will start a development server, and you can view the website by navigating to `http://localhost:5000` in your web browser.
 
