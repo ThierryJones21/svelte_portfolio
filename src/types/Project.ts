@@ -4,7 +4,8 @@ type Project = {
 	date: string;
 	image: string;
 	technologies: string[];
-	links: string[];
+	links: string[][];
+	
 };
 
 export default Project;

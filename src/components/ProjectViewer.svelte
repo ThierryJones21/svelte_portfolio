@@ -22,18 +22,25 @@
 
 	<div class="info">
 		<ul class="links">
-			<li title="links">&lt;/&gt;</li>
-			{#each project.links as link}
+			<li title="links"></li>
+			{#each project.links as [name, link],i}
 				<li title="open link to project">
 					<a href={link} target="_blank" rel="noopener noreferrer" class="icon">
+						<span class="name">{name}</span>
 						<Icon name={getLinkType(link)} width="20px" height="20px" />
 					</a>
 				</li>
 			{/each}
+
+
+
+
 		</ul>
-		<h1>{project.title}</h1>
+		
+		<h1>{project.title} - {project.date}</h1>
 
 		<p>
+			
 			{project.description} <br /><br />
 		</p>
 		<!-- <ul class="tags">
@@ -53,31 +60,27 @@
 
 	.links {
 		list-style: none;
-		display: flex;
+
 		justify-content: left; 
-		flex-direction: row;
 		flex-wrap: wrap;
+		display: flex; /* Ensure name and icon are in the same line */
+		align-items: center; /* Center name and icon vertically */
 	}
 
 	.links li:not(:first-of-type) {
+		align-items: center;
 		margin-bottom: 1rem;
 		transition: all ease 300ms;
 	}
 
 	.links li:hover:not(:first-of-type) {
+		align-items: center;
 		transform: scale(1.2);
 	}
 
-	/* tags */
-	.tags {
-		list-style: none;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		gap: 4px;
-	}
-
 	.icon {
+		margin-bottom: 1rem;
+		align-items: top;
 		text-decoration: none;
 		color: var(--color-primary);
 		padding: 5px;

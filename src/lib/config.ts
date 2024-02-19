@@ -2,6 +2,7 @@ import type NavLink from "$types/NavLink";
 import type Experience from "$types/Experience";
 import type Project from "$types/Project";
 import type Movies from "$types/Movies";
+import socials from "./socials";
 
 export const metadata = {
 	title: "Thierry Jones",
@@ -10,8 +11,7 @@ export const metadata = {
 };
 
 export const navLinks: NavLink[] = [
-	{ href: "/", text: "Home" },
-	{ href: "/projects", text: "Projects" }
+	{ href: "/", text: "Home" }
 ];
 
 export const projects: Project[] = [
@@ -21,7 +21,9 @@ export const projects: Project[] = [
 		date: '2023',
 		technologies: ['Python', 'Javascript', 'TensorFlow', 'OpenCV'],
 		image: '/images/projects/Capstone.jpg',
-		links: ['/images/projects/ELEC490_Final_Report_Group_52.pdf'],
+		links: [
+			['capstone', '/images/projects/ELEC490_Final_Report_Group_52.pdf']
+		]
 	  },
 	  {
 		title: 'Tetris React JS Game',
@@ -29,7 +31,9 @@ export const projects: Project[] = [
 		date: '2023',
 		technologies: [ 'Javascript', 'React'],
 		image: '/images/projects/Tetris.jpg',
-		links: ['https://react-tetris-app.vercel.app/'],
+		links: [
+			['react-tetris', 'https://react-tetris-app.vercel.app/']
+		]
 	  },
 	  {
 		title: 'StockPulse: Your Dynamic Financial Dashboard',
@@ -37,7 +41,11 @@ export const projects: Project[] = [
 		date: '2024',
 		technologies: [ 'Javascript', 'React', 'Vite', 'FMP API'],
 		image: '/images/projects/stock-project.png',
-		links: ['https://stock-tracker-iota.vercel.app/', 'https://site.financialmodelingprep.com/developer/docs'],
+		links: 
+			[
+				['stock-pulse', 'https://stock-tracker-iota.vercel.app/'], 
+				['fmp-api', 'https://site.financialmodelingprep.com/developer/docs']
+			]
 	  },
 
 	

@@ -35,7 +35,7 @@
 	footer {
 		bottom: 0;
 		color: var(--color-text);
-		padding: 10px 0;
+		padding: 0 0;
 		font-family: var(--font-mono);
 		margin: 0 auto;
 		margin-top: 200px;
