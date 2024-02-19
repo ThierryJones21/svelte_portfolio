@@ -19,7 +19,7 @@
 <main>
 	<slot />
 </main>
-<!-- <Footer /> -->
+<Footer />
 
 <style>
 	main {

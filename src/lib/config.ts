@@ -47,9 +47,6 @@ export const projects: Project[] = [
 				['fmp-api', 'https://site.financialmodelingprep.com/developer/docs']
 			]
 	  },
-
-	
-
 ];
 
 export const experience: Experience[] = [
@@ -88,7 +85,6 @@ export const experience: Experience[] = [
 		title: "Junior Software Developer",
 		company: { name: "Calatlyst.Earth (formerly PCI Geomatics)", url: "https://catalyst.earth/" },
 		startDate: "2019",
-		endDate: "2019",
 		points: [
 			"Developed customizable UI templates for the marketing team to facilitate easy map creation and customization for clients.",
 			"Created a dashboard with the marketing team that queried client data through various APIs (Google, YouTube, Pardot) and displayed easy-to-use statistics to generate potential leads.",

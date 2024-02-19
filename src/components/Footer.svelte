@@ -1,6 +1,7 @@
 <script>
 	import socials from "$lib/socials";
 	import Icon from "$components/Icon.svelte";
+	
 </script>
 
 <footer>
@@ -25,8 +26,8 @@
 	<section>
 		<a
 			target="_blank"
-			href="https://www.linkedin.com/in/thierry-jones-5106a6172/"
-			title="visit my linkedin">Visit my LinkedIn </a
+			href="https://github.com/ThierryJones21/svelte_portfolio"
+			title="visit my repo">Github <Icon name="github" width="25px" height="25px"></Icon> Repository for the Website</a
 		>
 	</section>
 </footer>
@@ -90,13 +91,13 @@
 	a {
 		text-decoration: none;
 		color: var(--color-text);
-		padding: 6px 12px;
+		padding: 20px 20px;
 		transition: var(--transition);
 		border-radius: var(--border-radius);
 	}
 
 	a:hover {
-		background-color: rgb(var(--color-primary-rgb), 0.3);
+		background-color: rgb(var(--color-primary-rgb), 0.5);
 	}
 
 	li > a {

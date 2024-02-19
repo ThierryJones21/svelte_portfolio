@@ -1,7 +1,7 @@
 import { projects } from "$lib/config";
 import type Project from "$types/Project";
 
-export let items: [string, string, string, string, string[], string[]][] = projects.map(project => [
+export let items: [string, string, string, string, string[], string[][]][] = projects.map(project => [
     project.title,
     project.description,
     project.date,

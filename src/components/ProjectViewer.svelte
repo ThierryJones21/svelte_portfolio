@@ -19,58 +19,49 @@
 
 <div class="wrapper">
 	<div class="preview-image" style={`background-image: url(${project.image})`} />
-
-	<div class="info">
-		<ul class="links">
-			<li title="links"></li>
-			{#each project.links as [name, link],i}
-				<li title="open link to project">
-					<a href={link} target="_blank" rel="noopener noreferrer" class="icon">
-						<span class="name">{name}</span>
-						<Icon name={getLinkType(link)} width="20px" height="20px" />
-					</a>
-				</li>
-			{/each}
-
-
-
-
-		</ul>
-		
-		<h1>{project.title} - {project.date}</h1>
-
-		<p>
-			
-			{project.description} <br /><br />
-		</p>
-		<!-- <ul class="tags">
-			{#each project.technologies as technology}
-				<li>
-					<Tag text={technology.name} color={technology.color} href={`/tags/${technology.name}`} />
-				</li>
-			{/each}
-		</ul> -->
-	</div>
+		<div class="info">
+			<h1>{project.title} - {project.date}</h1>
+			<p>
+				{project.description} 
+			</p>
+			<!-- <ul class="tags">
+				{#each project.technologies as technology}
+					<li>
+						<Tag text={technology.name} color={technology.color} href={`/tags/${technology.name}`} />
+					</li>
+				{/each}
+			</ul> -->
+			<ul class="links">
+				<li title="links"></li>
+				{#each project.links as [name, link],i}
+					<li title="open link to project">
+						<a href={link} target="_blank" rel="noopener noreferrer" class="icon">
+							<!-- <Icon name={getLinkType(link)} width="20px" height="20px" /> -->
+							{name}
+						</a>
+					</li>
+				{/each}
+			</ul>
+		</div>
 </div>
 
 <style>
 	p {
 		margin: 1rem 0;
+		line-height: 1.5; /* Adjust the line height as needed */
 	}
 
 	.links {
+		margin-top: 30px;
+		margin-left: -50px;
 		list-style: none;
-
-		justify-content: left; 
-		flex-wrap: wrap;
-		display: flex; /* Ensure name and icon are in the same line */
-		align-items: center; /* Center name and icon vertically */
+		justify-content: flex-start; 
+		display: flex; 
 	}
 
 	.links li:not(:first-of-type) {
 		align-items: center;
-		margin-bottom: 1rem;
-		transition: all ease 300ms;
+		transition: var(--transition);
 	}
 
 	.links li:hover:not(:first-of-type) {
@@ -79,18 +70,29 @@
 	}
 
 	.icon {
+		cursor: pointer;
+		background: none;
+		border-style: solid;
+		border-width: 2px;
+		font-weight: 500;
+		letter-spacing: 0.07rem;
+		padding: 10px 20px;
+		border-radius: var(--border-radius);
+		color: var(--color-primary);
+		border-color: var(--color-primary);
+		transition: var(--transition);
+
 		margin-bottom: 1rem;
-		align-items: top;
 		text-decoration: none;
 		color: var(--color-primary);
-		padding: 5px;
 		margin: 8px;
 	}
 
 	.wrapper {
+		max-width: fit-content;
 		display: flex;
 		justify-content: space-between;
-		margin: 0 auto 80px auto;
+		margin: 0 auto 40px auto;
 		min-height: 300px;
 		height: fit-content;
 		text-decoration: none;
@@ -110,7 +112,7 @@
 	}
 
 	.wrapper .info {
-		margin: 50px 0;
+		margin: 10px 0;
 		width: 100%;
 	}
 </style>

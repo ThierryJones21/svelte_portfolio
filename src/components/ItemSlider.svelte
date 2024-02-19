@@ -44,6 +44,8 @@
         display: inline-block;
         position: absolute;
         color: var(--color-primary);
+        font-weight: bold;
+        font-size: 110%;
     }
 
     ul {
@@ -54,6 +56,5 @@
     span {
         display: inline-block;
         position: absolute;
-        right: -30px;
     }
 </style>

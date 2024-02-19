@@ -3,21 +3,19 @@
 @import "transitions.css";
 
 :root {
-	--font-mono: "Space Mono", monospace;
+	--font-mono: "Apfel", monospace;
 	--max-width: 97vw;
-	--max-content-width: 70rem;
+	--max-content-width: 80%; /*Based on percentage of teh content width*/
 	--border-radius: 5px;
 }
 
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
 html {
 	scroll-behavior: smooth;
-	font-family: "Sato", sans-serif;
+	font-family: "Apfel", sans-serif;
 	font-size: 1rem;
 	tab-size: 4;
 }
@@ -25,7 +23,6 @@ html {
 body {
 	background: var(--color-bg);
 	color: var(--color-text);
-
 	transition: all var(--transition);
 }
 

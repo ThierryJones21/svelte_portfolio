@@ -138,16 +138,6 @@
 		text-transform: uppercase;
 	}
 
-	img {
-		height: calc(var(--nav-height) - 20px);
-		transition: var(--transition);
-	}
-
-	/* flip image colors in dark mode */
-	:global(body.dark) img {
-		filter: invert(100%);
-	}
-
 	/* selected nav item */
 	[aria-current]:not([aria-current="false"]) {
 		color: var(--color-primary);
