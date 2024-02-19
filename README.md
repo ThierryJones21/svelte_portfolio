@@ -31,3 +31,40 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/thierry-jones-portfolio.git
+   
+2. **Navigate to the project directory:**
+    ```bash
+    cd thierry-jones-portfolio
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   
+## Usage
+
+Once the project is set up, you can run it locally by executing the following command:
+   ```bash
+   npm run dev
+
+This will start a development server, and you can view the website by navigating to `http://localhost:5000` in your web browser.
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. **Fork the repository.**
+2. **Create a new branch:**
+git checkout -b feature/new-feature
+
+3. **Make your changes and commit them:**
+git commit -m 'Add new feature'
+
+4. **Push to the branch:**
+git push origin feature/new-feature
+
+5. **Submit a pull request.**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
