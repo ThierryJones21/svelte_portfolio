@@ -11,7 +11,6 @@ This is my portfolio website, showcasing my work experience, projects, and skill
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
@@ -20,8 +19,7 @@ Hi, I am a Computer Engineer and Developer, a recent graduate from Queen's Unive
 ## Features
 
 - Display of work experience with company details and job descriptions.
-- Projects section showcasing various projects Thierry has worked on.
-- Search functionality to filter projects by title.
+- Projects section showcasing various projects I have worked on.
 - Responsive design for optimal viewing on all devices.
 
 ## Installation
@@ -64,8 +62,4 @@ git commit -m 'Add new feature'
 git push origin feature/new-feature
 
 5. **Submit a pull request.**
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
