@@ -157,18 +157,9 @@
         font-size: calc(1.7vw + 1.7vh);
         display: flex;
         align-items: center;
+        justify-content: center;
         white-space: nowrap;
         margin-bottom: 30px;
-    }
-
-    h1.section-header::after {
-        content: "";
-        display: block;
-        position: relative;
-        margin-left: 20px;
-        width: 300px;
-        height: 1px;
-        background-color: rgba(var(--color-text-rgb), 0.5);
     }
 
     .experience {
@@ -358,7 +349,8 @@
         }
         .experience h3 .company a{
         color: var(--color-primary)
-    }
+        }
+    
 
     }
 </style>
