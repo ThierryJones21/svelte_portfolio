@@ -47,6 +47,27 @@ export const projects: Project[] = [
 				['fmp-api', 'https://site.financialmodelingprep.com/developer/docs']
 			]
 	  },
+	  {
+		title: 'Dynamic VPN Solution: Securing Connections Anywhere',
+		description: 'Developed and maintained an encrypted VPN solution as part of the Ericsson Response humanitarian emergency relief program. Designed to ensure secure connections for employees and volunteers in any situation or location worldwide. Implemented advanced encryption protocols to safeguard data transmission.',
+		date: '2023',
+		technologies: ['VPN', 'Encryption', 'Network Security'],
+		image: '/images/projects/ericsson-response.jpg',
+		links: [
+			['ericsson-response', 'https://www.ericsson.com/en/about-us/sustainability-and-corporate-responsibility/digital-inclusion/humanitarian-response']
+		]
+	},
+	{
+		title: 'QEC Programming Challenges Director',
+		description: 'Directed the creation of tiered difficulty coding challenges for the Queen\'s Engineering Competition (QEC), catering to over 100 participants across various engineering disciplines. Delivered challenges through Slack and QEC\'s GitHub repository. ',
+		date: '2022',
+		technologies: [],
+		image: '/images/projects/qec-programming.png',
+		links: [
+			['qec-programming','https://github.com/ThierryJones21/QEC_Programming']
+		]
+	}
+  
 ];
 
 export const experience: Experience[] = [
@@ -64,7 +85,7 @@ export const experience: Experience[] = [
 		title: "Automation Developer",
 		company: { name: "Ericsson", url: "https://www.ericsson.com/" },
 		startDate: "2021",
-		endDate: "2023 (Part Time)",
+		endDate: "2023",
 		points: [
 			"Created flows to automate dashboards and tools for Product Support engineers and managers.",
 			"Designed, built, and maintained a website in collaboration with the Ericsson Response humanitarian emergency relief program.",
