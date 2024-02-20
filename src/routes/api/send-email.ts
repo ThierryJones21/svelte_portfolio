@@ -1,7 +1,14 @@
+import express from 'express';
 import type { Request, Response } from 'express';
 import nodemailer from 'nodemailer';
 
-export default async function sendEmail(req: Request, res: Response) {
+const app = express();
+
+// Middleware to parse JSON bodies
+app.use(express.json());
+
+// Route handler for sending emails
+app.post('/api/send-email', async (req: Request, res: Response) => {
     const { name, email, message } = req.body;
 
     // Create a Nodemailer transporter
@@ -34,4 +41,10 @@ export default async function sendEmail(req: Request, res: Response) {
         console.error('Error sending email:', error);
         res.status(500).json({ message: 'Failed to send email' });
     }
-}
+});
+
+// Start the server
+const port = 3000;
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+});

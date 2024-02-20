@@ -95,9 +95,9 @@
     </div>
 </div>
 
-<!-- <section>
+<section>
     <ContactForm/>
-</section> -->
+</section>
 
 <style>
     section {

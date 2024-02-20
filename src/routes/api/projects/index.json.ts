@@ -29,7 +29,6 @@ export const GET = () => {
 		return content;
 	});
 	
-	// sort the posts by date
 	if (items.length > 2) {
 		const sortedProjectFrontmatters = projectContent.sort(
 			(a: Project, b: Project) => {
