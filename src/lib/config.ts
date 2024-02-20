@@ -104,7 +104,7 @@ export const experience: Experience[] = [
 	},
 	{
 		title: "Junior Software Developer",
-		company: { name: "Calatlyst.Earth (formerly PCI Geomatics)", url: "https://catalyst.earth/" },
+		company: { name: "Calatlyst.Earth", url: "https://catalyst.earth/" },
 		startDate: "2019",
 		points: [
 			"Developed customizable UI templates for the marketing team to facilitate easy map creation and customization for clients.",
