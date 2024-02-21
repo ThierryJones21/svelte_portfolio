@@ -28,11 +28,11 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/thierry-jones-portfolio.git
+   git clone https://github.com/ThierryJones21/svelte_portfolio.git
    
 2. **Navigate to the project directory:**
     ```bash
-    cd thierry-jones-portfolio
+    cd svelte_portfolio
 
 3. **Install dependencies:**
    ```bash
