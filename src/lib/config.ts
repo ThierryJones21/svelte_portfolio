@@ -11,7 +11,8 @@ export const metadata = {
 };
 
 export const navLinks: NavLink[] = [
-	{ href: "/", text: "Home" }
+	{ href: "/", text: "Home" },
+	{ href: "/projects", text: "Projects"}
 ];
 
 export const projects: Project[] = [

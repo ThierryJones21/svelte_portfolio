@@ -34,27 +34,29 @@
 <Head title="Projects" />
 
 <h1>Projects</h1>
+<section class="section">
+	<label for="search">
+		<input id="search" placeholder="Search by Title" type="text" bind:value={searchQuery} />
+		<span class="search-icon">
+			<Icon name="search" />
+		</span>
+	</label>
 
-<label for="search">
-	<input id="search" placeholder="Search by Title" type="text"  />
-	<span class="search-icon">
-		<Icon name="search" />
-	</span>
-</label>
-
-<ul>
-	{#if filteredProjects.length}
-		{#each filteredProjects as project}
-			<li>
-				<ProjectViewer {project} />
-			</li>
-		{/each}
-	{:else}
-		<p>No projects here...</p>
-	{/if}
-</ul>
+	<ul>
+		{#if filteredProjects.length}
+			{#each filteredProjects as project}
+				<li>
+					<ProjectViewer {project} />
+				</li>
+			{/each}
+		{:else}
+			<p>No projects here...</p>
+		{/if}
+	</ul>
+</section>
 
 <style>
+
 	h1 {
 		font-size: 4rem;
 	}

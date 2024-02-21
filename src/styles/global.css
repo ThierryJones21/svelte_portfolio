@@ -3,9 +3,9 @@
 @import "transitions.css";
 
 :root {
-	--font-mono: "Apfel", monospace;
+	--font-family: "Arvo", sans-serif;
 	--max-width: 97vw;
-	--max-content-width: 80%; /*Based on percentage of teh content width*/
+	--max-content-width: 80%; /*Based on percentage of the max width*/
 	--border-radius: 5px;
 }
 
@@ -15,7 +15,7 @@
 
 html {
 	scroll-behavior: smooth;
-	font-family: "Apfel", sans-serif;
+	font-family: "Arvo", sans-serif;
 	font-size: 1rem;
 	tab-size: 4;
 }

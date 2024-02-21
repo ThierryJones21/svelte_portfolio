@@ -18,11 +18,6 @@
 			<a href="mailto:jones.thierry@gmail.com"><Icon name="mail" width="35px" height="35px" /></a>
 		</li>
 	</ul>
-	<!-- <ul class="right">
-		<li>
-			<a href="mailto:jones.thierry@gmail.com">jones.thierry@gmail.com</a>
-		</li>
-	</ul> -->
 	<section>
 		<a
 			target="_blank"
@@ -68,7 +63,7 @@
 	} */
 
 	ul.left {
-		left: 0;
+		right: 0;
 	}
 
 	ul::after {
@@ -85,7 +80,7 @@
 	}
 
 	ul.left > li:hover {
-		transform: scale(1.2);
+		transform: scale(1.5);
 	}
 
 	a {

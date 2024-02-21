@@ -101,6 +101,7 @@
 
 <style>
     section {
+        margin-top: -3vh;
         min-height: 40vh;
 		width: 100%;
         transition: var(--transition);
@@ -230,7 +231,7 @@
         align-items: center;
         
         height: var(--tab-height);
-        padding: 20px 20px 20px;
+        padding: 10px 10px 10px;
         
         color: var(--color-primary-rgb);
         font-family: var(--font-mono);
