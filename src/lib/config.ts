@@ -17,6 +17,16 @@ export const navLinks: NavLink[] = [
 
 export const projects: Project[] = [
 	{
+		title: 'Stock Prediction LSTM Model',
+		description: `This Python project employs LSTM neural networks to predict stock prices by fetching historical data from the Financial Modeling Prep API. It preprocesses data, creates sequences for training, and builds an LSTM model with TensorFlow. The model is trained, validated, and tested, with performance metrics evaluated. After training, the model is saved for future use. Predictions are made for future stock prices, and visualizations compare actual and predicted prices. This project demonstrates proficiency in data retrieval, preprocessing, deep learning model construction, training, evaluation, and visualization, making it a valuable addition to a portfolio showcasing expertise in data science and machine learning for financial applications.`,
+		date: '2024',
+		technologies: ['Google Colab','Python', 'Javascript', 'TensorFlow'],
+		image: '/images/projects/stock-prediction.png',
+		links: [
+			['google-colab', 'https://colab.research.google.com/drive/1ZxWSM0klQ5dlHQtwspzn_skuMLrjyh0y#scrollTo=ZMA0Vg01SmXT']
+		]
+	},
+	{
 		title: 'Capstone Final Project',
 		description: `A cutting-edge Python/JS application integrating machine learning via TensorFlow and computer vision with OpenCV for joint tracking and form correction. This innovative solution harnesses Python's versatility alongside JavaScript's interactivity to revolutionize joint tracking algorithms. With a focus on enhancing user experience and efficiency, it marks a significant milestone in AI-driven applications. Access the detailed report for insights into the project's development and functionality.`,
 		date: '2023',
