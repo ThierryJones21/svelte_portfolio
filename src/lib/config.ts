@@ -24,6 +24,7 @@ export const projects: Project[] = [
 		technologies: ['Google Colab','Python', 'Javascript', 'TensorFlow'],
 		image: '/images/projects/tfjs-stock-prediction.png',
 		links: [
+			['github', 'https://github.com/ThierryJones21/ml-stock-prediciton'],
 			['tfjs-webapp','https://ml-stock-prediciton.vercel.app/'],
 			['google-colab', 'https://colab.research.google.com/drive/1ZxWSM0klQ5dlHQtwspzn_skuMLrjyh0y#scrollTo=ZMA0Vg01SmXT']
 		]
