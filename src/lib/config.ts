@@ -22,8 +22,9 @@ export const projects: Project[] = [
 		This project entails the development of a stock price prediction system utilizing LSTM neural networks. Historical stock data is sourced from the Financial Modeling Prep API and preprocessed for training. Leveraging TensorFlow, the LSTM model is constructed with meticulous tuning of architecture and hyperparameters. Extensive training, validation, and testing ensure the model's accuracy and reliability. Upon achieving satisfactory performance, the trained model is saved for future utilization. The system effectively predicts future stock prices, with visualizations comparing actual versus predicted prices offering valuable insights. This project demonstrates proficiency in data processing, deep learning, and financial forecasting.`,
 		date: '2024',
 		technologies: ['Google Colab','Python', 'Javascript', 'TensorFlow'],
-		image: '/images/projects/stock-prediction.png',
+		image: '/images/projects/tfjs-stock-prediction.png',
 		links: [
+			['tfjs-webapp','https://ml-stock-prediciton.vercel.app/'],
 			['google-colab', 'https://colab.research.google.com/drive/1ZxWSM0klQ5dlHQtwspzn_skuMLrjyh0y#scrollTo=ZMA0Vg01SmXT']
 		]
 	},
