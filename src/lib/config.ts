@@ -8,6 +8,7 @@ export const metadata = {
 	title: "Thierry Jones",
 	description: "Engineer passionated about development and curious about digital circuits",
 	baseUrl: "https://thierryjones.ca",
+	logo: "/images/logo.svg"
 };
 
 export const navLinks: NavLink[] = [

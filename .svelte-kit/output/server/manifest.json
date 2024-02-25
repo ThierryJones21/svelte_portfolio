@@ -15,15 +15,20 @@
     "src": "src/routes/sitemap.xml.ts",
     "isEntry": true,
     "imports": [
-      "_config-aa159bd5.js"
+      "_config-2f6efd05.js"
     ]
+  },
+  "src/routes/api/send-email.ts": {
+    "file": "entries/endpoints/api/send-email.ts.js",
+    "src": "src/routes/api/send-email.ts",
+    "isEntry": true
   },
   "src/routes/api/projects/index.json.ts": {
     "file": "entries/endpoints/api/projects/index.json.ts.js",
     "src": "src/routes/api/projects/index.json.ts",
     "isEntry": true,
     "imports": [
-      "_config-aa159bd5.js"
+      "_config-2f6efd05.js"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -32,11 +37,12 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_config-aa159bd5.js",
-      "_Icon-3dbad89c.js"
+      "_config-2f6efd05.js",
+      "_Icon-60d085f3.js",
+      "_Head-e6f0e0c9.js"
     ],
     "css": [
-      "immutable/assets/__layout-fbf845ab.css"
+      "immutable/assets/__layout-6f04d454.css"
     ]
   },
   "src/routes/__error.svelte": {
@@ -53,12 +59,13 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-4a1cd017.js",
-      "_Icon-3dbad89c.js",
-      "_config-aa159bd5.js"
+      "_ProjectViewer-0177c42e.js",
+      "_Head-e6f0e0c9.js",
+      "_Icon-60d085f3.js",
+      "_config-2f6efd05.js"
     ],
     "css": [
-      "immutable/assets/index-8f03cd43.css"
+      "immutable/assets/index-8512ee99.css"
     ]
   },
   "src/routes/projects/index.svelte": {
@@ -67,22 +74,28 @@
     "isEntry": true,
     "imports": [
       "_index-f3ac1acc.js",
-      "_Head-4a1cd017.js",
-      "_Icon-3dbad89c.js",
-      "_config-aa159bd5.js"
+      "_Icon-60d085f3.js",
+      "_ProjectViewer-0177c42e.js"
     ],
     "css": [
-      "immutable/assets/index-927acb03.css"
+      "immutable/assets/index-657dbe67.css"
     ]
   },
   "_index-f3ac1acc.js": {
     "file": "immutable/chunks/index-f3ac1acc.js"
   },
-  "_config-aa159bd5.js": {
-    "file": "immutable/chunks/config-aa159bd5.js"
+  "_config-2f6efd05.js": {
+    "file": "immutable/chunks/config-2f6efd05.js"
   },
-  "_Icon-3dbad89c.js": {
-    "file": "immutable/chunks/Icon-3dbad89c.js",
+  "_Head-e6f0e0c9.js": {
+    "file": "immutable/chunks/Head-e6f0e0c9.js",
+    "imports": [
+      "_index-f3ac1acc.js",
+      "_config-2f6efd05.js"
+    ]
+  },
+  "_Icon-60d085f3.js": {
+    "file": "immutable/chunks/Icon-60d085f3.js",
     "imports": [
       "_index-f3ac1acc.js"
     ],
@@ -90,11 +103,14 @@
       "immutable/assets/Icon-2ad09abc.css"
     ]
   },
-  "_Head-4a1cd017.js": {
-    "file": "immutable/chunks/Head-4a1cd017.js",
+  "_ProjectViewer-0177c42e.js": {
+    "file": "immutable/chunks/ProjectViewer-0177c42e.js",
     "imports": [
       "_index-f3ac1acc.js",
-      "_config-aa159bd5.js"
+      "_Icon-60d085f3.js"
+    ],
+    "css": [
+      "immutable/assets/ProjectViewer-353dbc8f.css"
     ]
   },
   ".svelte-kit/build/hooks.js": {

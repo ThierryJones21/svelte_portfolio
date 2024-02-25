@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://prowe.ca/sitemap.xml
+Sitemap: https://thierryjones.ca/sitemap.xml

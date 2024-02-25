@@ -1,9 +1,9 @@
 export const manifest = {
 	appDir: "_app",
-	assets: new Set([".DS_Store","Thierry-Jones-Resume.pdf","favicon.svg","fonts/Apfel/ApfelGrotezk-Regular.woff2","fonts/Inter/Inter-Black.ttf","fonts/Inter/Inter-Bold.ttf","fonts/Inter/Inter-ExtraBold.ttf","fonts/Inter/Inter-ExtraLight.ttf","fonts/Inter/Inter-Light.ttf","fonts/Inter/Inter-Medium.ttf","fonts/Inter/Inter-Regular.ttf","fonts/Inter/Inter-SemiBold.ttf","fonts/Inter/Inter-Thin.ttf","fonts/Sato/Satoshi-Variable.woff2","fonts/SpaceMono/SpaceMono-Bold.ttf","fonts/SpaceMono/SpaceMono-BoldItalic.ttf","fonts/SpaceMono/SpaceMono-Italic.ttf","fonts/SpaceMono/SpaceMono-Regular.ttf","icons/icons.svg","images/.DS_Store","images/logo.png","images/logo.svg","images/movies/apocalypto.jpg","images/movies/dune.jpg","images/movies/heat.jpg","images/movies/iron-claw.jpg","images/movies/memento.jpg","images/movies/prisonners.jpg","images/movies/talk-to-me.jpg","images/movies/we-own-the-night.jpg","images/prof-pic.png","images/projects/.DS_Store","robots.txt"]),
+	assets: new Set([".DS_Store","Thierry-Jones-Resume.pdf","favicon.svg","fonts/Apfel/ApfelGrotezk-Regular.woff2","fonts/Arvo/Arvo-Regular.ttf","icons/icons.svg","images/.DS_Store","images/logo.png","images/logo.svg","images/movies/apocalypto.jpg","images/movies/dune.jpg","images/movies/heat.jpg","images/movies/iron-claw.jpg","images/movies/memento.jpg","images/movies/prisonners.jpg","images/movies/talk-to-me.jpg","images/movies/we-own-the-night.jpg","images/prof-pic.png","images/projects/.DS_Store","images/projects/Capstone.jpg","images/projects/ELEC490_Final_Report_Group_52.pdf","images/projects/Tetris.jpg","images/projects/ericsson-response.jpg","images/projects/qec-programming.png","images/projects/stock-prediction.png","images/projects/stock-project.png","images/projects/tfjs-stock-prediction.png","robots.txt"]),
 	mimeTypes: {".pdf":"application/pdf",".svg":"image/svg+xml",".woff2":"font/woff2",".ttf":"font/ttf",".png":"image/png",".jpg":"image/jpeg",".txt":"text/plain"},
 	_: {
-		entry: {"file":"immutable/start-a43e12cf.js","imports":["immutable/start-a43e12cf.js","immutable/chunks/index-b122bb94.js","immutable/chunks/singletons-cdeec3fd.js"],"stylesheets":[]},
+		entry: {"file":"immutable/start-ea9e7f42.js","imports":["immutable/start-ea9e7f42.js","immutable/chunks/index-b814adb8.js","immutable/chunks/singletons-cdeec3fd.js"],"stylesheets":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
@@ -40,6 +40,14 @@ export const manifest = {
 				shadow: null,
 				a: [0,3],
 				b: [1]
+			},
+			{
+				type: 'endpoint',
+				id: "api/send-email",
+				pattern: /^\/api\/send-email\/?$/,
+				names: [],
+				types: [],
+				load: () => import('./entries/endpoints/api/send-email.ts.js')
 			},
 			{
 				type: 'endpoint',

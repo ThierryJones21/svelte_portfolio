@@ -14,7 +14,6 @@
 </script>
 
 <script lang="ts">
-	import Head from "$components/Head.svelte";
 	import Icon from "$components/Icon.svelte";
   	import ProjectViewer from "$components/ProjectViewer.svelte";
 	import type Project from "$types/Project";
@@ -30,8 +29,6 @@
 			  );
 	
 </script>
-
-<Head title="Projects" />
 
 <h1>Projects</h1>
 <section class="section">

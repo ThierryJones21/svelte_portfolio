@@ -1,4 +1,4 @@
-import { p as projects } from "../../../../immutable/chunks/config-aa159bd5.js";
+import { p as projects } from "../../../../immutable/chunks/config-2f6efd05.js";
 let items = projects.map((project) => [
   project.title,
   project.description,
