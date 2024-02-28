@@ -18,14 +18,13 @@ export const navLinks: NavLink[] = [
 
 export const projects: Project[] = [
 	{
-		title: 'Stock Prediction LSTM Model',
-		description: `
-		This project entails the development of a stock price prediction system utilizing LSTM neural networks. Historical stock data is sourced from the Financial Modeling Prep API and preprocessed for training. Leveraging TensorFlow, the LSTM model is constructed with meticulous tuning of architecture and hyperparameters. Extensive training, validation, and testing ensure the model's accuracy and reliability. Upon achieving satisfactory performance, the trained model is saved for future utilization. The system effectively predicts future stock prices, with visualizations comparing actual versus predicted prices offering valuable insights. This project demonstrates proficiency in data processing, deep learning, and financial forecasting.`,
+		title: 'TomorrowTrend: Machine Learning Forecast',
+		description: `Leveraging TensorFlow, the LSTM (Long Short Term Model) is constructed with historical stock market closing price data. Extensive training, validation, and testing ensure the model's accuracy and reliability. Upon achieving satisfactory performance, the trained model is saved for the webapp dashboard. The system predicts future stock prices, with visualizations comparing actual versus predicted prices offering valuable insights.`,
 		date: '2024',
 		technologies: ['Google Colab','Python', 'Javascript', 'TensorFlow'],
 		image: '/images/projects/stock-lstm.png',
 		links: [
-			['tfjs-webapp','https://ml-stock-prediciton.vercel.app/'],
+			['tomorrow-trend','https://ml-stock-prediciton.vercel.app/'],
 			['google-colab', 'https://colab.research.google.com/drive/1ZxWSM0klQ5dlHQtwspzn_skuMLrjyh0y#scrollTo=ZMA0Vg01SmXT']
 		]
 	},
@@ -41,7 +40,7 @@ export const projects: Project[] = [
 	  },
 	  {
 		title: 'Tetris React JS Game',
-		description: `Immerse yourself in this captivating JavaScript-based game, powered by React. Dive into the nostalgia of Tetris with modern technology, showcasing the seamless integration of JavaScript and React. Experience addictive gameplay and compete with friends for the top spot on the leaderboard. Try it now for a dose of retro fun and leaderboard glory!`,
+		description: `Dive into the nostalgia of Tetris with modern technology, showcasing the seamless integration of JavaScript and React. Experience addictive gameplay and compete with friends for the top spot on the leaderboard. Try it now for a dose of retro fun and leaderboard glory!`,
 		date: '2023',
 		technologies: [ 'Javascript', 'React'],
 		image: '/images/projects/Tetris.jpg',
