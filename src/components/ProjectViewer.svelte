@@ -1,47 +1,26 @@
 <script lang="ts">
 	import type Project from "$types/Project";
-	import Icon from "$components/Icon.svelte";
-
 	export let project: Project;
 
-	function getLinkType(link: string) {
-		if (link.toLowerCase().includes("github")) {
-			return "github";
-		} else if (link.toLowerCase().includes("you")) {
-			return "youtube";
-		} else if (link.toLowerCase().includes("vercel")) {
-			return "vercel";
-		} else {
-			return "globe";
-		}
-	}
 </script>
 
 <div class="wrapper">
 	<div class="preview-image" style={`background-image: url(${project.image})`} />
 		<div class="info">
-			<h1>{project.title} - {project.date}</h1>
-			<p>
-				{project.description} 
-			</p>
-			<!-- <ul class="tags">
-				{#each project.technologies as technology}
-					<li>
-						<Tag text={technology.name} color={technology.color} href={`/tags/${technology.name}`} />
-					</li>
-				{/each}
-			</ul> -->
 			<ul class="links">
 				<li title="links"></li>
 				{#each project.links as [name, link],i}
 					<li title="open link to project">
 						<a href={link} target="_blank" rel="noopener noreferrer" class="icon">
-							<!-- <Icon name={getLinkType(link)} width="20px" height="20px" /> -->
 							{name}
 						</a>
 					</li>
 				{/each}
 			</ul>
+			<h1>{project.title} - {project.date}</h1>
+			<p>
+				{project.description} 
+			</p>
 		</div>
 </div>
 
@@ -54,6 +33,7 @@
 	.links {
 		margin-top: 30px;
 		margin-left: -50px;
+		margin-bottom: 2vw;
 		list-style: none;
 		justify-content: flex-start; 
 		display: flex; 

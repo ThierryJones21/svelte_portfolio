@@ -19,7 +19,7 @@ export const navLinks: NavLink[] = [
 export const projects: Project[] = [
 	{
 		title: 'TomorrowTrend: Machine Learning Forecast',
-		description: `Leveraging TensorFlow, the LSTM (Long Short Term Model) is constructed with historical stock market closing price data. Extensive training, validation, and testing ensure the model's accuracy and reliability. Upon achieving satisfactory performance, the trained model is saved for the webapp dashboard. The system predicts future stock prices, with visualizations comparing actual versus predicted prices offering valuable insights.`,
+		description: `Leveraging TensorFlow, the LSTM (Long Short Term Memory) model is constructed with historical stock market closing price data. Extensive training, validation, and testing ensure the model's accuracy and reliability. Upon achieving satisfactory performance, the trained model is saved for the webapp dashboard. The system predicts future stock prices, with visualizations comparing actual versus predicted prices offering valuable insights.`,
 		date: '2024',
 		technologies: ['Google Colab','Python', 'Javascript', 'TensorFlow'],
 		image: '/images/projects/stock-lstm.png',
