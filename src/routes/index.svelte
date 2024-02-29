@@ -29,8 +29,7 @@
 			  );
 	import Head from "$components/Head.svelte";
   	import ItemSlider from "$components/ItemSlider.svelte";
-  	import MoviesTransition from "$components/MoviesTransition.svelte";
-	import { technologies, experience, movies } from "$lib/config";
+	import { technologies, experience } from "$lib/config";
 	let selectedJobIndex = 0;
 	$: job = experience[selectedJobIndex];
 </script>
@@ -87,11 +86,18 @@
     <div class="project-grid">
         {#if filteredProjects.length}
             {#each filteredProjects as project}
-                    <ProjectViewer {project} />
+                    {#if project.highlight}
+                        <ProjectViewer {project} />
+                    {/if}
             {/each}
         {:else}
             <p>No projects here...</p>
         {/if}
+    </div>
+    <div>
+        <a href="/projects">
+            <button class="styled-btn">VIEW MORE</button>           
+        </a>
     </div>
 </div>
 

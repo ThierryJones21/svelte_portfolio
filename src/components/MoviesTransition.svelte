@@ -7,7 +7,7 @@
 
     let activeIndex = 0;
 
-    let interval;
+    let interval: any;
     onMount(() => {
         interval = setInterval(() => {
             activeIndex = (activeIndex + 1) % items.length;

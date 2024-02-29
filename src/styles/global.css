@@ -53,6 +53,7 @@ button.styled-btn {
 	color: var(--color-primary);
 	border-color: var(--color-primary);
 	transition: var(--transition);
+	list-style: none;
 }
 
 button.styled-btn:hover {

@@ -54,7 +54,7 @@
             ></textarea>
         </div>
         <div class="button-container">
-            <button class='send-button'>
+            <button class='styled-btn'>
                 Send Email
             </button>
         </div>
@@ -86,15 +86,4 @@
         justify-content: center;
     }
 
-    .send-button {
-        padding: 10px 20px;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    .send-button:hover {
-        background-color: #ddd;
-    }
 </style>

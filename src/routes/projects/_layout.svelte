@@ -8,4 +8,4 @@
 
 <slot />
 
-<Head title="Project" />
+<Head />

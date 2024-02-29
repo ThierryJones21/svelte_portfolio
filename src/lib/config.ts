@@ -2,7 +2,6 @@ import type NavLink from "$types/NavLink";
 import type Experience from "$types/Experience";
 import type Project from "$types/Project";
 import type Movies from "$types/Movies";
-import socials from "./socials";
 
 export const metadata = {
 	title: "Thierry Jones",
@@ -26,7 +25,8 @@ export const projects: Project[] = [
 		links: [
 			['tomorrow-trend','https://ml-stock-prediciton.vercel.app/'],
 			['google-colab', 'https://colab.research.google.com/drive/1ZxWSM0klQ5dlHQtwspzn_skuMLrjyh0y#scrollTo=ZMA0Vg01SmXT']
-		]
+		],
+		highlight: true
 	},
 	{
 		title: 'Capstone Final Project',
@@ -36,7 +36,8 @@ export const projects: Project[] = [
 		image: '/images/projects/Capstone.jpg',
 		links: [
 			['capstone', '/images/projects/ELEC490_Final_Report_Group_52.pdf']
-		]
+		],
+		highlight: true
 	  },
 	  {
 		title: 'Tetris React JS Game',
@@ -46,7 +47,8 @@ export const projects: Project[] = [
 		image: '/images/projects/Tetris.jpg',
 		links: [
 			['react-tetris', 'https://react-tetris-app.vercel.app/']
-		]
+		],
+		highlight: false
 	  },
 	  {
 		title: 'StockPulse: Your Dynamic Financial Dashboard',
@@ -58,7 +60,9 @@ export const projects: Project[] = [
 			[
 				['stock-pulse', 'https://stock-tracker-iota.vercel.app/'], 
 				['fmp-api', 'https://site.financialmodelingprep.com/developer/docs']
-			]
+			],
+		highlight: false
+
 	  },
 	  {
 		title: 'Dynamic VPN Solution: Securing Connections Anywhere',
@@ -68,7 +72,8 @@ export const projects: Project[] = [
 		image: '/images/projects/ericsson-response.jpg',
 		links: [
 			['ericsson-response', 'https://www.ericsson.com/en/about-us/sustainability-and-corporate-responsibility/digital-inclusion/humanitarian-response']
-		]
+		],
+		highlight: true
 	},
 	{
 		title: 'QEC Programming Challenges Director',
@@ -78,7 +83,8 @@ export const projects: Project[] = [
 		image: '/images/projects/qec-programming.png',
 		links: [
 			['qec-programming','https://github.com/ThierryJones21/QEC_Programming']
-		]
+		],
+		highlight: false
 	}
   
 ];

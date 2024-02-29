@@ -5,6 +5,7 @@ type Project = {
 	image: string;
 	technologies: string[];
 	links: string[][];
+	highlight: boolean;
 	
 };
 

@@ -1,13 +1,14 @@
 import { projects } from "$lib/config";
 import type Project from "$types/Project";
 
-export let items: [string, string, string, string, string[], string[][]][] = projects.map(project => [
+export let items: [string, string, string, string, string[], string[][], boolean][] = projects.map(project => [
     project.title,
     project.description,
     project.date,
     project.image,
     project.technologies,
     project.links,
+	project.highlight
 ]);
 
 export const GET = () => {
@@ -24,7 +25,8 @@ export const GET = () => {
 			date: item[2],
 			image: item[3],
 			technologies: item[4],
-			links: item[5]
+			links: item[5],
+			highlight: item[6]
 		};
 		return content;
 	});

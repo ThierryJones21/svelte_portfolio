@@ -86,7 +86,7 @@
 		background-position: center;
 		width: 100%;
 		min-height: 300px;
-		max-height: 30vh;
+		max-height: 60vh;
 		margin: 0;
 		border-radius: 2%;
 	}
