@@ -37,6 +37,10 @@
 		list-style: none;
 		justify-content: flex-start; 
 		display: flex; 
+		flex-wrap: wrap; /* Allow items to wrap onto a new line */
+	}
+	.links li {
+		margin-bottom: 30px; /* Margin between the buttons when they wrap */
 	}
 
 	.links li:not(:first-of-type) {
@@ -66,6 +70,8 @@
 		text-decoration: none;
 		color: var(--color-primary);
 		margin: 8px;
+		flex-shrink: 10;
+		white-space: nowrap; 
 	}
 
 	.wrapper {
